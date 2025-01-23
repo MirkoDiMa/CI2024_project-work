@@ -1,0 +1,66 @@
+# Metrics
+timestamp,generation,best_fitness,average_fitness,diversity,complexity,selection_strategy,crossover_strategy,mutation_strategy,local_search_algorithm
+2025-01-23 10:45:03,1,2971.6589,inf,0.3638,14.9000,tournament,uniform,subtree,
+2025-01-23 10:45:03,11,1633.9307,inf,0.1781,6.7600,tournament,uniform,subtree,
+
+# Algorithm strategies track
+timestamp,message
+2025-01-23 10:45:03,Processing Problem 3
+2025-01-23 10:45:03,Initializing Genetic Programming.
+2025-01-23 10:45:03,Selection strategy changed from elitist to tournament | Reason: Low diversity detected
+2025-01-23 10:45:03,Mutation strategy changed from simple to subtree | Reason: Low diversity (<3)
+2025-01-23 10:45:03,Crossover strategy changed from one_point to uniform | Reason: Low diversity (<0.5)
+2025-01-23 10:45:03,Local_search strategy changed from simulated_annealing to tabu_search | Reason: Low diversity (<3)
+2025-01-23 10:45:03,Generation 1/20 - Best Fitness: 2971.6589
+2025-01-23 10:45:03,"Active strategies in Generation 1: selection=elitist, crossover=one_point, mutation=simple, local_search=simulated_annealing"
+2025-01-23 10:45:03,"Active strategies in Generation 2: selection=tournament, crossover=uniform, mutation=subtree, local_search=tabu_search"
+2025-01-23 10:45:03,"Active strategies in Generation 3: selection=tournament, crossover=uniform, mutation=subtree, local_search=tabu_search"
+2025-01-23 10:45:03,"Active strategies in Generation 4: selection=tournament, crossover=uniform, mutation=subtree, local_search=tabu_search"
+2025-01-23 10:45:03,"Active strategies in Generation 5: selection=tournament, crossover=uniform, mutation=subtree, local_search=tabu_search"
+2025-01-23 10:45:03,"Active strategies in Generation 6: selection=tournament, crossover=uniform, mutation=subtree, local_search=tabu_search"
+2025-01-23 10:45:03,"Active strategies in Generation 7: selection=tournament, crossover=uniform, mutation=subtree, local_search=tabu_search"
+2025-01-23 10:45:03,"Active strategies in Generation 8: selection=tournament, crossover=uniform, mutation=subtree, local_search=tabu_search"
+2025-01-23 10:45:03,"Active strategies in Generation 9: selection=tournament, crossover=uniform, mutation=subtree, local_search=tabu_search"
+2025-01-23 10:45:03,"Active strategies in Generation 10: selection=tournament, crossover=uniform, mutation=subtree, local_search=tabu_search"
+2025-01-23 10:45:03,Generation 11/20 - Best Fitness: 1633.9307
+2025-01-23 10:45:03,"Active strategies in Generation 11: selection=tournament, crossover=uniform, mutation=subtree, local_search=tabu_search"
+2025-01-23 10:45:03,"Active strategies in Generation 12: selection=tournament, crossover=uniform, mutation=subtree, local_search=tabu_search"
+2025-01-23 10:45:03,"Active strategies in Generation 13: selection=tournament, crossover=uniform, mutation=subtree, local_search=tabu_search"
+2025-01-23 10:45:03,"Active strategies in Generation 14: selection=tournament, crossover=uniform, mutation=subtree, local_search=tabu_search"
+2025-01-23 10:45:03,"Active strategies in Generation 15: selection=tournament, crossover=uniform, mutation=subtree, local_search=tabu_search"
+2025-01-23 10:45:03,"Active strategies in Generation 16: selection=tournament, crossover=uniform, mutation=subtree, local_search=tabu_search"
+2025-01-23 10:45:03,"Active strategies in Generation 17: selection=tournament, crossover=uniform, mutation=subtree, local_search=tabu_search"
+2025-01-23 10:45:03,"Active strategies in Generation 18: selection=tournament, crossover=uniform, mutation=subtree, local_search=tabu_search"
+2025-01-23 10:45:03,"Active strategies in Generation 19: selection=tournament, crossover=uniform, mutation=subtree, local_search=tabu_search"
+2025-01-23 10:45:03,"Active strategies in Generation 20: selection=tournament, crossover=uniform, mutation=subtree, local_search=tabu_search"
+2025-01-23 10:45:04,"
+==================== Experiment Summary ====================
+--- Experiment Configuration ---
+Population Size: 50
+Max Depth: 5
+Max Generations: 20
+Mutation Rate: 0.6
+Crossover Rate: 0.3
+Elitism: 5
+
+--- Experiment Status ---
+Experiment started at 2025-01-23 10:45:03
+Experiment finished at 2025-01-23 10:45:04
+Duration: 0.69 seconds
+Status: Succeeded
+Reason: Max generations reached
+
+--- Experiment Statistics ---
+Final Diversity: 0.2810 (Low)
+Final Complexity: 12.0800 (High)
+Total Generations: 20
+Generations Without Improvement: 0 (0.0%)
+Best Fitness Achieved: 1535.6474 (Bad)
+Best Expression: np.add(np.negative(x[1]), np.abs(np.subtract(np.abs(np.negative(np.log(x[1]))), np.add(np.log(x[1]), np.cos(-0.703)))))
+
+--- Strategy Usage ---
+Selection Strategies: {'elitist': 1, 'tournament': 20}
+Crossover Strategies: {'one_point': 1, 'uniform': 20}
+Mutation Strategies: {'simple': 1, 'subtree': 20}
+Local Search Algorithms: {'simulated_annealing': 1, 'tabu_search': 20}
+"
