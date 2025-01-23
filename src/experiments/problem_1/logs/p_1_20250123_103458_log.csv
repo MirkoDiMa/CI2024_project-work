@@ -1,0 +1,170 @@
+# Metrics
+timestamp,generation,best_fitness,average_fitness,diversity,complexity,selection_strategy,crossover_strategy,mutation_strategy,local_search_algorithm
+2025-01-23 10:34:58,1,0.4625,inf,0.1668,12.7720,tournament,uniform,subtree,
+2025-01-23 10:35:07,11,0.2033,inf,0.1516,4.8280,roulette,subtree,diversity,
+2025-01-23 10:35:22,21,0.4535,inf,0.0935,4.5680,roulette,subtree,diversity,
+2025-01-23 10:35:38,31,0.2033,inf,0.0931,4.1060,roulette,subtree,diversity,
+2025-01-23 10:35:53,41,0.4000,inf,0.0846,4.9580,roulette,subtree,diversity,
+2025-01-23 10:36:09,51,0.2033,inf,0.0742,4.7360,roulette,subtree,diversity,
+2025-01-23 10:36:25,61,0.4535,inf,0.1029,4.2240,roulette,subtree,diversity,
+2025-01-23 10:36:41,71,0.4535,inf,0.1069,1.5800,roulette,subtree,diversity,
+2025-01-23 10:36:58,81,0.4535,inf,0.0647,1.6140,roulette,subtree,diversity,
+2025-01-23 10:37:14,91,0.2033,inf,0.1025,4.9660,roulette,subtree,diversity,
+2025-01-23 10:37:30,101,0.2033,inf,0.0901,4.9800,roulette,subtree,diversity,
+
+# Algorithm strategies track
+timestamp,message
+2025-01-23 10:34:58,Processing Problem 1
+2025-01-23 10:34:58,Initializing Genetic Programming.
+2025-01-23 10:34:58,Selection strategy changed from elitist to tournament | Reason: Low diversity detected
+2025-01-23 10:34:58,Crossover strategy changed from one_point to uniform | Reason: Low diversity (<0.5)
+2025-01-23 10:34:58,Mutation strategy changed from simple to subtree | Reason: Low diversity (<3)
+2025-01-23 10:34:58,Local_search strategy changed from simulated_annealing to tabu_search | Reason: Low diversity (<3)
+2025-01-23 10:34:58,Generation 1/200 - Best Fitness: 0.4625
+2025-01-23 10:34:58,"Active strategies in Generation 1: selection=elitist, crossover=one_point, mutation=simple, local_search=simulated_annealing"
+2025-01-23 10:34:58,"Active strategies in Generation 2: selection=tournament, crossover=uniform, mutation=subtree, local_search=tabu_search"
+2025-01-23 10:34:58,"Active strategies in Generation 3: selection=tournament, crossover=uniform, mutation=subtree, local_search=tabu_search"
+2025-01-23 10:34:58,"Active strategies in Generation 4: selection=tournament, crossover=uniform, mutation=subtree, local_search=tabu_search"
+2025-01-23 10:34:58,"Active strategies in Generation 5: selection=tournament, crossover=uniform, mutation=subtree, local_search=tabu_search"
+2025-01-23 10:34:58,Selection strategy changed from tournament to roulette | Reason: Stagnation detected
+2025-01-23 10:34:58,Mutation strategy changed from subtree to diversity | Reason: Detected stagnation (no improvement for 7 generations)
+2025-01-23 10:34:58,Crossover strategy changed from uniform to subtree | Reason: Stagnation detected
+2025-01-23 10:34:59,"Active strategies in Generation 6: selection=tournament, crossover=uniform, mutation=subtree, local_search=tabu_search"
+2025-01-23 10:35:01,"Active strategies in Generation 7: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:35:03,"Active strategies in Generation 8: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:35:04,"Active strategies in Generation 9: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:35:05,"Active strategies in Generation 10: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:35:07,Generation 11/200 - Best Fitness: 0.2033
+2025-01-23 10:35:07,"Active strategies in Generation 11: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:35:09,"Active strategies in Generation 12: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:35:10,"Active strategies in Generation 13: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:35:11,"Active strategies in Generation 14: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:35:13,"Active strategies in Generation 15: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:35:14,"Active strategies in Generation 16: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:35:16,"Active strategies in Generation 17: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:35:18,"Active strategies in Generation 18: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:35:19,"Active strategies in Generation 19: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:35:21,"Active strategies in Generation 20: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:35:22,Generation 21/200 - Best Fitness: 0.4535
+2025-01-23 10:35:22,"Active strategies in Generation 21: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:35:24,"Active strategies in Generation 22: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:35:25,"Active strategies in Generation 23: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:35:27,"Active strategies in Generation 24: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:35:28,"Active strategies in Generation 25: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:35:30,"Active strategies in Generation 26: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:35:32,"Active strategies in Generation 27: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:35:33,"Active strategies in Generation 28: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:35:35,"Active strategies in Generation 29: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:35:36,"Active strategies in Generation 30: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:35:38,Generation 31/200 - Best Fitness: 0.2033
+2025-01-23 10:35:38,"Active strategies in Generation 31: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:35:39,"Active strategies in Generation 32: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:35:41,"Active strategies in Generation 33: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:35:42,"Active strategies in Generation 34: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:35:44,"Active strategies in Generation 35: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:35:46,"Active strategies in Generation 36: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:35:47,"Active strategies in Generation 37: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:35:49,"Active strategies in Generation 38: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:35:50,"Active strategies in Generation 39: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:35:52,"Active strategies in Generation 40: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:35:53,Generation 41/200 - Best Fitness: 0.4000
+2025-01-23 10:35:53,"Active strategies in Generation 41: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:35:55,"Active strategies in Generation 42: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:35:56,"Active strategies in Generation 43: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:35:58,"Active strategies in Generation 44: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:36:00,"Active strategies in Generation 45: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:36:01,"Active strategies in Generation 46: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:36:03,"Active strategies in Generation 47: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:36:04,"Active strategies in Generation 48: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:36:06,"Active strategies in Generation 49: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:36:08,"Active strategies in Generation 50: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:36:09,Generation 51/200 - Best Fitness: 0.2033
+2025-01-23 10:36:09,"Active strategies in Generation 51: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:36:11,"Active strategies in Generation 52: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:36:12,"Active strategies in Generation 53: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:36:14,"Active strategies in Generation 54: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:36:16,"Active strategies in Generation 55: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:36:17,"Active strategies in Generation 56: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:36:19,"Active strategies in Generation 57: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:36:20,"Active strategies in Generation 58: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:36:22,"Active strategies in Generation 59: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:36:24,"Active strategies in Generation 60: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:36:25,Generation 61/200 - Best Fitness: 0.4535
+2025-01-23 10:36:25,"Active strategies in Generation 61: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:36:27,"Active strategies in Generation 62: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:36:28,"Active strategies in Generation 63: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:36:30,"Active strategies in Generation 64: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:36:31,"Active strategies in Generation 65: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:36:33,"Active strategies in Generation 66: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:36:35,"Active strategies in Generation 67: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:36:36,"Active strategies in Generation 68: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:36:38,"Active strategies in Generation 69: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:36:40,"Active strategies in Generation 70: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:36:41,Generation 71/200 - Best Fitness: 0.4535
+2025-01-23 10:36:41,"Active strategies in Generation 71: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:36:43,"Active strategies in Generation 72: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:36:45,"Active strategies in Generation 73: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:36:46,"Active strategies in Generation 74: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:36:48,"Active strategies in Generation 75: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:36:50,"Active strategies in Generation 76: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:36:51,"Active strategies in Generation 77: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:36:53,"Active strategies in Generation 78: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:36:55,"Active strategies in Generation 79: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:36:56,"Active strategies in Generation 80: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:36:58,Generation 81/200 - Best Fitness: 0.4535
+2025-01-23 10:36:58,"Active strategies in Generation 81: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:36:59,"Active strategies in Generation 82: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:37:01,"Active strategies in Generation 83: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:37:03,"Active strategies in Generation 84: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:37:04,"Active strategies in Generation 85: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:37:06,"Active strategies in Generation 86: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:37:08,"Active strategies in Generation 87: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:37:09,"Active strategies in Generation 88: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:37:11,"Active strategies in Generation 89: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:37:13,"Active strategies in Generation 90: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:37:14,Generation 91/200 - Best Fitness: 0.2033
+2025-01-23 10:37:14,"Active strategies in Generation 91: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:37:16,"Active strategies in Generation 92: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:37:18,"Active strategies in Generation 93: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:37:19,"Active strategies in Generation 94: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:37:21,"Active strategies in Generation 95: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:37:22,"Active strategies in Generation 96: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:37:24,"Active strategies in Generation 97: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:37:25,"Active strategies in Generation 98: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:37:27,"Active strategies in Generation 99: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:37:28,"Active strategies in Generation 100: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:37:30,Generation 101/200 - Best Fitness: 0.2033
+2025-01-23 10:37:30,"Active strategies in Generation 101: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:37:32,"Active strategies in Generation 102: selection=roulette, crossover=subtree, mutation=diversity, local_search=tabu_search"
+2025-01-23 10:37:32,"Early stopping triggered at generation 103: Best Fitness = 0.2033, Generations Without Improvement = 100"
+2025-01-23 10:37:32,"
+==================== Experiment Summary ====================
+--- Experiment Configuration ---
+Population Size: 500
+Max Depth: 5
+Max Generations: 200
+Mutation Rate: 0.6
+Crossover Rate: 0.3
+Elitism: 5
+
+--- Experiment Status ---
+Experiment started at 2025-01-23 10:34:58
+Experiment finished at 2025-01-23 10:37:32
+Duration: 154.60 seconds
+Status: Succeeded
+Reason: Max generations reached
+
+--- Experiment Statistics ---
+Final Diversity: 0.0689 (Low)
+Final Complexity: 4.8760 (Low)
+Total Generations: 102
+Generations Without Improvement: 100 (98.0%)
+Best Fitness Achieved: 0.2033 (Good)
+Best Expression: x[0]
+
+--- Strategy Usage ---
+Selection Strategies: {'elitist': 1, 'tournament': 6, 'roulette': 97}
+Crossover Strategies: {'one_point': 1, 'uniform': 6, 'subtree': 97}
+Mutation Strategies: {'simple': 1, 'subtree': 6, 'diversity': 97}
+Local Search Algorithms: {'simulated_annealing': 1, 'tabu_search': 102}
+"
