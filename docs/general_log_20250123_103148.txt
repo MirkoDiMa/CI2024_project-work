@@ -1,0 +1,99 @@
+2025-01-23 10:31:48,709 - Processing Problem 0
+2025-01-23 10:31:48,711 - Initializing Genetic Programming.
+2025-01-23 10:31:48,841 - Generation 1/200 - Best Fitness: 3.5934
+2025-01-23 10:32:00,571 - Generation 11/200 - Best Fitness: 0.2107
+2025-01-23 10:32:19,750 - Generation 21/200 - Best Fitness: 0.2107
+2025-01-23 10:32:40,222 - Generation 31/200 - Best Fitness: 0.2107
+2025-01-23 10:32:58,922 - Generation 41/200 - Best Fitness: 0.2107
+2025-01-23 10:33:17,948 - Generation 51/200 - Best Fitness: 0.2107
+2025-01-23 10:33:37,969 - Generation 61/200 - Best Fitness: 0.2107
+2025-01-23 10:33:57,935 - Generation 71/200 - Best Fitness: 0.2107
+2025-01-23 10:34:16,282 - Generation 81/200 - Best Fitness: 0.2107
+2025-01-23 10:34:36,022 - Generation 91/200 - Best Fitness: 0.2107
+2025-01-23 10:34:54,801 - Generation 101/200 - Best Fitness: 0.2107
+2025-01-23 10:34:56,986 - Early stopping triggered at generation 103: Best Fitness = 0.2107, Generations Without Improvement = 100
+2025-01-23 10:34:58,168 - 
+==================== Experiment Summary ====================
+--- Experiment Configuration ---
+Population Size: 500
+Max Depth: 5
+Max Generations: 200
+Mutation Rate: 0.6
+Crossover Rate: 0.3
+Elitism: 5
+
+--- Experiment Status ---
+Experiment started at 2025-01-23 10:31:48
+Experiment finished at 2025-01-23 10:34:58
+Duration: 189.47 seconds
+Status: Succeeded
+Reason: Max generations reached
+
+--- Experiment Statistics ---
+Final Diversity: 0.1230 (Low)
+Final Complexity: 1.9480 (Low)
+Total Generations: 102
+Generations Without Improvement: 100 (98.0%)
+Best Fitness Achieved: 0.2107 (Good)
+Best Expression: x[0]
+
+--- Strategy Usage ---
+Selection Strategies: {'elitist': 1, 'tournament': 6, 'roulette': 97}
+Crossover Strategies: {'one_point': 1, 'uniform': 6, 'subtree': 97}
+Mutation Strategies: {'simple': 1, 'subtree': 6, 'diversity': 97}
+Local Search Algorithms: {'simulated_annealing': 1, 'tabu_search': 102}
+
+2025-01-23 10:34:58,170 - Processing Problem 1
+2025-01-23 10:34:58,171 - Initializing Genetic Programming.
+2025-01-23 10:34:58,247 - Generation 1/200 - Best Fitness: 0.4625
+2025-01-23 10:35:07,437 - Generation 11/200 - Best Fitness: 0.2033
+2025-01-23 10:35:22,619 - Generation 21/200 - Best Fitness: 0.4535
+2025-01-23 10:35:38,414 - Generation 31/200 - Best Fitness: 0.2033
+2025-01-23 10:35:53,824 - Generation 41/200 - Best Fitness: 0.4000
+2025-01-23 10:36:09,668 - Generation 51/200 - Best Fitness: 0.2033
+2025-01-23 10:36:25,426 - Generation 61/200 - Best Fitness: 0.4535
+2025-01-23 10:36:41,765 - Generation 71/200 - Best Fitness: 0.4535
+2025-01-23 10:36:58,331 - Generation 81/200 - Best Fitness: 0.4535
+2025-01-23 10:37:14,619 - Generation 91/200 - Best Fitness: 0.2033
+2025-01-23 10:37:30,617 - Generation 101/200 - Best Fitness: 0.2033
+2025-01-23 10:37:32,393 - Early stopping triggered at generation 103: Best Fitness = 0.2033, Generations Without Improvement = 100
+2025-01-23 10:37:32,773 - 
+==================== Experiment Summary ====================
+--- Experiment Configuration ---
+Population Size: 500
+Max Depth: 5
+Max Generations: 200
+Mutation Rate: 0.6
+Crossover Rate: 0.3
+Elitism: 5
+
+--- Experiment Status ---
+Experiment started at 2025-01-23 10:34:58
+Experiment finished at 2025-01-23 10:37:32
+Duration: 154.60 seconds
+Status: Succeeded
+Reason: Max generations reached
+
+--- Experiment Statistics ---
+Final Diversity: 0.0689 (Low)
+Final Complexity: 4.8760 (Low)
+Total Generations: 102
+Generations Without Improvement: 100 (98.0%)
+Best Fitness Achieved: 0.2033 (Good)
+Best Expression: x[0]
+
+--- Strategy Usage ---
+Selection Strategies: {'elitist': 1, 'tournament': 6, 'roulette': 97}
+Crossover Strategies: {'one_point': 1, 'uniform': 6, 'subtree': 97}
+Mutation Strategies: {'simple': 1, 'subtree': 6, 'diversity': 97}
+Local Search Algorithms: {'simulated_annealing': 1, 'tabu_search': 102}
+
+2025-01-23 10:37:32,776 - Processing Problem 2
+2025-01-23 10:37:32,778 - Initializing Genetic Programming.
+2025-01-23 10:37:32,892 - Generation 1/200 - Best Fitness: 29616985775129.6602
+2025-01-23 10:37:34,087 - Generation 11/200 - Best Fitness: 29544143656915.2539
+2025-01-23 10:37:49,985 - Generation 21/200 - Best Fitness: 29077718375638.1406
+2025-01-23 10:37:53,359 - Generation 31/200 - Best Fitness: 27391175081597.8008
+2025-01-23 10:37:57,956 - Generation 41/200 - Best Fitness: 26443588586192.5742
+2025-01-23 10:38:02,682 - Generation 51/200 - Best Fitness: 25379927324059.5898
+2025-01-23 10:41:23,828 - Generation 61/200 - Best Fitness: 25379927324059.5898

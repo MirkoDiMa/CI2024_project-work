@@ -1,0 +1,78 @@
+2025-01-23 09:28:01,029 - Processing Problem 0
+2025-01-23 09:28:01,032 - Initializing Genetic Programming.
+2025-01-23 09:28:05,000 - Generation 1/50 - Best Fitness: 3.3934
+2025-01-23 09:28:35,776 - Generation 11/50 - Best Fitness: 0.0107
+2025-01-23 09:29:08,819 - Generation 21/50 - Best Fitness: 0.0084
+2025-01-23 09:29:47,076 - Generation 31/50 - Best Fitness: 0.0046
+2025-01-23 09:30:35,684 - Generation 41/50 - Best Fitness: 0.0038
+2025-01-23 09:31:16,007 - 
+==================== Experiment Summary ====================
+--- Experiment Configuration ---
+Population Size: 600
+Max Depth: 7
+Max Generations: 50
+Mutation Rate: 0.6
+Crossover Rate: 0.4
+Elitism: 10
+
+--- Experiment Status ---
+Experiment started at 2025-01-23 09:28:00
+Experiment finished at 2025-01-23 09:31:16
+Duration: 195.04 seconds
+Status: Succeeded
+Reason: Max generations reached
+
+--- Experiment Statistics ---
+Final Diversity: 0.0546 (Low)
+Final Complexity: 7.6900 (Medium)
+Total Generations: 50
+Generations Without Improvement: 6 (12.0%)
+Best Fitness Achieved: 0.0022 (Good)
+Best Expression: np.add(x[0], np.log2(np.maximum(np.exp(np.log10(np.power(np.exp(np.log10(np.add(np.maximum(np.abs(0.9649573889319687), 0.6204281335809985), x[1]))), 0.969))), 0.969)))
+
+--- Strategy Usage ---
+Selection Strategies: {'elitist': 3, 'rank': 17, 'roulette': 28, 'tournament': 16}
+Crossover Strategies: {'one_point': 1, 'blended': 29, 'subtree': 28}
+Mutation Strategies: {'simple': 3, 'shrink': 27, 'diversity': 28, 'subtree': 4}
+Local Search Algorithms: {'simulated_annealing': 3, 'hill_climb': 44, 'tabu_search': 10}
+
+2025-01-23 09:31:16,009 - Processing Problem 1
+2025-01-23 09:31:16,009 - Initializing Genetic Programming.
+2025-01-23 09:31:19,702 - Generation 1/50 - Best Fitness: 0.2544
+2025-01-23 09:31:36,655 - Early stopping triggered at generation 9: Best Fitness = 0.0000, Generations Without Improvement = 1
+2025-01-23 09:31:36,957 - 
+==================== Experiment Summary ====================
+--- Experiment Configuration ---
+Population Size: 600
+Max Depth: 7
+Max Generations: 50
+Mutation Rate: 0.6
+Crossover Rate: 0.4
+Elitism: 10
+
+--- Experiment Status ---
+Experiment started at 2025-01-23 09:31:16
+Experiment finished at 2025-01-23 09:31:36
+Duration: 20.95 seconds
+Status: Succeeded
+Reason: Max generations reached
+
+--- Experiment Statistics ---
+Final Diversity: 0.0907 (Low)
+Final Complexity: 4.4183 (Low)
+Total Generations: 8
+Generations Without Improvement: 1 (12.5%)
+Best Fitness Achieved: 0.0000 (Best)
+Best Expression: np.sin(x[0])
+
+--- Strategy Usage ---
+Selection Strategies: {'elitist': 1, 'rank': 6, 'roulette': 2, 'tournament': 2}
+Crossover Strategies: {'one_point': 1, 'blended': 8, 'subtree': 2}
+Mutation Strategies: {'simple': 1, 'shrink': 6, 'diversity': 2, 'subtree': 2}
+Local Search Algorithms: {'simulated_annealing': 1, 'hill_climb': 7, 'tabu_search': 2}
+
+2025-01-23 09:31:36,958 - Processing Problem 2
+2025-01-23 09:31:36,960 - Initializing Genetic Programming.
+2025-01-23 09:31:37,158 - Generation 1/50 - Best Fitness: 29616985172563.8867
+2025-01-23 09:32:01,347 - Generation 11/50 - Best Fitness: 29544162950337.7148
+2025-01-23 09:33:30,018 - Generation 21/50 - Best Fitness: 29521500942404.1914
